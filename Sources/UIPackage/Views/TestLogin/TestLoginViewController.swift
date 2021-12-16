@@ -16,8 +16,6 @@ public class TestLoginViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .cyan
         setupTermsAndContitionsLabel()
-        
-        
     }
     
     public static func instantiate() -> TestLoginViewController {
